@@ -54,7 +54,7 @@ function App() {
     // Load Earth texture
     const textureLoader = new THREE.TextureLoader();
     const earthTexture = textureLoader.load(
-      'https://raw.githubusercontent.com/turban/webgl-earth/master/images/2_no_clouds_4k.jpg',
+      'https://images.steamusercontent.com/ugc/545263034473954343/68F4AB04814E6E57B78A848CEF3852476F0B00A8/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true',
       () => setLoading(false)
     );
     
